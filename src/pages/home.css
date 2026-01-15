@@ -1,0 +1,18 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    height: 100lvh;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
