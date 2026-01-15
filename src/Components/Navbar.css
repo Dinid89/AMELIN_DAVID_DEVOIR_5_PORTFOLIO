@@ -1,0 +1,11 @@
+#navbarNav {
+  justify-content: end;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+.navbar-brand {
+  text-transform: uppercase;
+}
