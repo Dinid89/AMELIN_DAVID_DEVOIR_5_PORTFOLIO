@@ -1,19 +1,15 @@
 import "./home.css";
+import heroBg from "../images/hero-bg.jpg";
 
 const Home = () => {
     return (
     <>
-        <section className="Hero">
-            <div className="title" >
-                <h1>Bonjour Je suis John Doe</h1>
-                <h2>Développeur Web Full-Stack</h2>
-            </div>
-        </section>
-        <div>
-            <div>
-                <h3>A propos</h3>
-            </div>
+    <section className="Hero"> 
+        <div className="title">
+            <h1 className="hello">Bonjour, je suis John Doe</h1>
+            <h2 className="job">Développeur Web Full-Stack</h2>
         </div>
+    </section>
     </>  
     )
 }
