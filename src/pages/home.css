@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .Hero {
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
@@ -9,12 +15,16 @@
     align-items: center;
     text-align: center;
     height: 100vh;
+    gap: 20px;
 
 }
-
-h1, h2 {
+ h1, h2 {
     color: white;
-    justify-content: center;
+ }
+
+.btnInfo {
+    background-color: rgb(201, 30, 30);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
 }
-
-
