@@ -11,7 +11,7 @@
 }
 
 .footerLink:hover {
-    text-decoration: underline;
+    font-weight: bold;
     color: white;
 }
 

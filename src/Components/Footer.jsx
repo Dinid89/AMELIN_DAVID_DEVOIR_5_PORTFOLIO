@@ -37,6 +37,12 @@ const Footer = () => {
             </div>
             <div className="d-flex flex-column mb-3">
                <h4>Mes dernieres réalisations</h4>
+               <NavLink to="/Portfolio" className="footerLink">Fresh Food</NavLink>
+               <NavLink to="/Portfolio" className="footerLink">Restaurant Akira</NavLink>
+               <NavLink to="/Portfolio" className="footerLink">Espace Bien-être</NavLink>
+               <NavLink to="/Portfolio" className="footerLink">SEO</NavLink>
+               <NavLink to="/Portfolio" className="footerLink">Création d'une API</NavLink>
+               <NavLink to="/Portfolio" className="footerLink">Maquette d'un site</NavLink>
             </div>
          </div>
         </>
