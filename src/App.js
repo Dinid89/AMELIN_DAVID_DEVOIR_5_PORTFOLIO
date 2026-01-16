@@ -1,6 +1,7 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 import Home from "./pages/Home";
 import Services from './pages/Services';
@@ -24,6 +25,8 @@ class App extends React.Component {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Mentions" element={<Mentions />} />
         </Routes>
+
+        <Footer />
 
       </>
     )

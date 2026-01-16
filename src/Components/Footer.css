@@ -1,0 +1,41 @@
+.footer {
+    background-color: rgb(36, 33, 33);
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 30px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.icones {
+    gap: 10px;
+}
+
+.icones svg {
+    color: white;
+    opacity: 0.2;
+}
+
+
+.icones svg:hover {
+    color: white;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+}
