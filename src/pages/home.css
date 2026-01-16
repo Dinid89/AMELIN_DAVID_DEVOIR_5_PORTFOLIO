@@ -31,7 +31,7 @@
 }
 
 .titleAbout {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid rgb(85, 85, 243);
 }
 
 .JohnDoe {
@@ -50,12 +50,23 @@
     text-align: justify;
 }
 .about {
-    bordr: 1px solid red;
     width: 50%;
 }
 
 .competences {
-    brder: 1px solid green;
     width: 50%;
 }
 
+@media screen and (max-width:600px) {
+    .JohnDoe {
+        width: 90%;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .competences {
+        width: 90%;
+    }
+}

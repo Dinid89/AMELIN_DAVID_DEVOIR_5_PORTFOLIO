@@ -1,11 +1,9 @@
 import "./home.css";
 import heroBg from "../images/hero-bg.jpg";
 import johnDoeabout from "../images/john-doe-about.jpg";
-import { useState } from "react";
 
 
 const Home = () => {
-    const [progress, setProgress] = useState(40);
     return (
     <>
     <main>
@@ -18,8 +16,8 @@ const Home = () => {
             <button className="btnInfo display-10 lg-5">En savoir plus</button>
             </section>
 
-            <section className="JohnDoe d-flex flex-row">
-                <div className="about d-flex flex-column justify-content-center">
+            <section className="JohnDoe d-flex flex-column flex-lg-row">
+                <div className="about d-flex flex-column">
                     <h3 className="titleAbout p-2">A propos</h3>
                     <img className="img-fluid p-1" src={johnDoeabout} alt="john doe"/>
                     <p>
