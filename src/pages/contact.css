@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3 {
     color: black;
     font-weight: bold;
 }
@@ -14,7 +14,11 @@ h1 {
     border: 1px solid black;
     width: 100%;
     display: inline-block;
-    border-bottom: 5px solid rgb(85, 85, 243);
+    border-bottom: 5px solid rgb(23, 182, 245);
+}
+
+h2 {
+    border-bottom: 3px solid rgb(23, 182, 245);
 }
 
 .mainContact {
@@ -29,9 +33,12 @@ h1 {
 }
 
 .formulaire {
-    width: 100%;
+    width: 50%;
 }
 
+.coordonnées {
+    width: 50%;
+}
 .message {
     width: 100%;
 }
@@ -40,8 +47,19 @@ h1 {
     background-color: rgb(0, 158, 197);
     border-radius: 5px;
     border: none;
-    width: 30%;
+    width: 20%;
     color: white;
     padding: 5px;
     text-align: center;
 }
+
+@media screen and (max-width:600px) {
+    .formulaire {
+        width: 100%;
+    }
+
+    .coordonnées {
+        width: 100%;
+    }
+}
+
