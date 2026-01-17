@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
 
                         <div className="mb-1">
-                          <textarea className="message" required placeholder="Votre message"/>
+                          <textarea className="message" rows="18" required placeholder="Votre message"/>
                         </div>
                         <div className="btnSubmit d-flex justify-content-center">
                           <button type="submit" aria-label="Envoyer le message">Envoyer</button>
@@ -84,7 +84,7 @@ const Contact = () => {
                         </address>
                     </div>
                     <div className="map-container">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.626968942958!2d4.794365477628085!3d45.77866564850217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb4bf610e719%3A0xa1ad02b21aa749f4!2sCEDEO%20Lyon%20Vaise%20%3A%20Sanitaire%20-%20Chauffage%20-%20Plomberie!5e0!3m2!1sfr!2sfr!4v1768579158683!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.626968942958!2d4.794365477628085!3d45.77866564850217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1768642723485!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
               </section>
