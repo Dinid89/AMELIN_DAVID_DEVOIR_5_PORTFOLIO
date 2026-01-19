@@ -8,3 +8,40 @@
     width: 100%;
 }
 
+.servicesTitle {
+    text-align: center;
+    padding: 20px;
+}
+
+.servicesTitle h1 {
+    font-weight: bold;
+}
+
+
+.cards {
+    width: 80%;
+    font-size: 0.8rem;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.servicesTitle hr {
+    width: 40%;
+}
+
+.cards h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card {
+    padding: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
