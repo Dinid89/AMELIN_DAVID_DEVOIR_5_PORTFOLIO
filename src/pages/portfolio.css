@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.portfolioTitle {
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolioTitle h1 {
+    font-weight: bold;
+}
+
+hr {
+    width: 40%;
+}
+
+.cardsContainer {
+    width: 90%;
+    padding: 30px;
+}
+
+
+.cardsContainer h2 {
+    font-size: 1.5rem;
+}
+
+.cardsContainer p {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:800px) {
+    .cardsContainer {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
+
+
+
