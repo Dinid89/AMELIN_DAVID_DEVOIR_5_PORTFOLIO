@@ -1,13 +1,18 @@
 import "./contact.css";
+import Banner from "../images/banner.jpg"
 
 
 const Contact = () => {
   return (
     <main>
       <div>
+        <div className="banner">
+            <img src={Banner} alt="bannière"/>
+        </div>
         <div className="titleContact">
           <h1>Contact</h1>
           <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact</p>
+          <hr className="mx-auto border border-primary border-2 opacity-75" />
         </div>  
             
         <section className="mainContact d-flex flex-column flex-lg-row">
@@ -28,7 +33,7 @@ const Contact = () => {
                         </div>
 
                         <div className="mb-1">
-                          <input type="email" className="form-control" aria-label="Votre mal" required placeholder="Votre mail"/>
+                          <input type="email" className="form-control" aria-label="Votre mail" required placeholder="Votre mail"/>
                         </div>
 
                         <div className="mb-1">

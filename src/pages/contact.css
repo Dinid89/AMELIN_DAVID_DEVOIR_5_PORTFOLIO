@@ -14,9 +14,7 @@
 .titleContact {
     text-align: center;
     width: 100%;
-    display: inline-block;
-    border-bottom: 5px solid rgb(23, 182, 245);
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .mainContact h2 {
     border-bottom: 3px solid rgb(23, 182, 245);
