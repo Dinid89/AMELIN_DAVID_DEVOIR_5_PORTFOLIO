@@ -76,7 +76,7 @@ const Mentions = () => {
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diagram-3 me-2" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
               </svg>
-              <NavLink to="https://alwaysdata.com">www.alwaysdata.com</NavLink>
+              <NavLink to="https://alwaysdata.com" target="_blank">www.alwaysdata.com</NavLink>
               </p>
             </address>
           </div>
@@ -91,11 +91,11 @@ const Mentions = () => {
         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
           <div className="accordion-body">
             <h3><strong>Crédits</strong></h3>
-            <p>Ce site a été réalisé par John Doe, étudiant au  <NavLink to="https://www.centre-europeen-formation.fr/"> Centre Européen de formation.</NavLink>
+            <p>Ce site a été réalisé par John Doe, étudiant au  <NavLink to="https://www.centre-europeen-formation.fr/" target="_blank"> Centre Européen de formation.</NavLink>
             </p>
-            <p className="italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site  <NavLink to="https://www.pixabay.com"> Pixabay</NavLink> 
+            <p className="italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site  <NavLink to="https://www.pixabay.com" target="_blank"> Pixabay</NavLink> 
             </p>
-            <p className="italic">La favicon de ce site a été fournie par  <NavLink>John Doe Icons erstellt von Freepik - Flaticon</NavLink>
+            <p className="italic">La favicon de ce site a été fournie par  <NavLink to="www.flaticons.com" target="_blank">John Doe Icons erstellt von Freepik - Flaticon</NavLink>
             </p>
           </div>
         </div>

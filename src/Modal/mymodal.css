@@ -2,3 +2,21 @@
     background-color: black;
     color: white;
 }
+
+.modal-content img {
+    width: 100%;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 50px;
+}
+
+.modalInfo {
+    padding-top: 20px;
+}
+
+.modal-body hr {
+    width: 100%;
+}
