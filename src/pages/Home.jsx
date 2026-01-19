@@ -1,9 +1,12 @@
+import  { useState } from "react";
 import "./home.css";
-import heroBg from "../images/hero-bg.jpg";
 import johnDoeabout from "../images/john-doe-about.jpg";
+import Mymodal from "../Modal/Mymodal";
 
 
 const Home = () => {
+    const [showModal, setShowModal] = useState (false)
+
     return (
     <>
     <main>
@@ -13,7 +16,11 @@ const Home = () => {
                     <h1 className="hello display-2 lg-3">Bonjour, je suis John Doe</h1>
                     <h2 className="hello display-2 lg-3">Développeur Web Full-Stack</h2>
                 </div>
-            <button className="btnInfo display-10 lg-5">En savoir plus</button>
+                    
+            
+            <button type="button" className="btn btn-danger mt-4" onClick={() => setShowModal(true)}>En savoir plus</button>
+            <Mymodal show={showModal} onClose={() => setShowModal(false)} />
+
             </section>
 
             <section className="JohnDoe d-flex flex-column flex-lg-row">
