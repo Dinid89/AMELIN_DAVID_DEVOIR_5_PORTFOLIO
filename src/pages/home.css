@@ -23,6 +23,14 @@
     color: white;
  }
 
+ .title h1 {
+    font-weight: bold;
+ }
+
+ .title h2 {
+    font-size: 4rem;
+}
+
 .titleAbout {
     border-bottom: 3px solid #0d6efd;
 }
@@ -61,5 +69,14 @@
 
     .competences {
         width: 90%;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+
+    }
+
+    .title h2 {
+        font-size: 2.5rem;
     }
 }

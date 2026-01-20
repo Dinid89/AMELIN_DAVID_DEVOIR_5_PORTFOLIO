@@ -41,7 +41,7 @@ const Contact = () => {
                         </div>
 
                         <div className="mb-1">
-                          <textarea className="message" rows="18" required placeholder="Votre message"/>
+                          <textarea className="message" rows="18" aria-label="Votre message" required placeholder="   Votre message"/>
                         </div>
                         <div className="btnSubmit d-flex justify-content-center">
                           <button type="submit" aria-label="Envoyer le message">Envoyer</button>

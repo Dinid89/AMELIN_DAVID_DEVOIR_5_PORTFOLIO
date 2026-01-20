@@ -15,7 +15,7 @@ const Mymodal = ({ show, onClose }) => {
                     <button type="button" onClick={onClose} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             <div className="modal-body">
-                <img src="https://avatars.githubusercontent.com/u/19842736?v=4"/>
+                <img src="https://avatars.githubusercontent.com/u/19842736?v=4" alt="GitHub profil"/>
                 
                 <div className="modalInfo">
                 <div>

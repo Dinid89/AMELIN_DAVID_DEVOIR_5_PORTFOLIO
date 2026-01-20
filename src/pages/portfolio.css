@@ -35,6 +35,15 @@ hr {
     font-size: 0.9rem;
 }
 
+.card {
+    transition: box-shadow 0.2 ease;
+}
+
+.card:hover{
+    background-color: #efefef;
+    box-shadow: 0 4px 12px black;
+}
+
 @media screen and (max-width:800px) {
     .cardsContainer {
         width: 100%;
