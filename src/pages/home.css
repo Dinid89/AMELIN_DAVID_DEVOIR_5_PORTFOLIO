@@ -23,15 +23,8 @@
     color: white;
  }
 
-.btnInfo {
-    background-color: rgb(201, 30, 30);
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 .titleAbout {
-    border-bottom: 3px solid rgb(85, 85, 243);
+    border-bottom: 3px solid #0d6efd;
 }
 
 .JohnDoe {

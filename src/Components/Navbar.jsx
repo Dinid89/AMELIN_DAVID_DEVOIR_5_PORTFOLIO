@@ -16,16 +16,16 @@ const Navbar = () => {
                     <NavLink className="nav-link" aria-current="page" to="/Home">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/Services">Services</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/Services">Services</NavLink>
+                </li>
+                <li className="nav-item"> 
+                    <NavLink className="nav-link" aria-current="page" to="/Portfolio">Portfolio</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/Portfolio">Portfolio</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/Contact">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/Contact">Contact</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/Mentions">Mentions Légales</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/Mentions">Mentions Légales</NavLink>
                 </li>
             </ul>
         </div>

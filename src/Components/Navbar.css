@@ -9,3 +9,9 @@
 .navbar-brand {
   text-transform: uppercase;
 }
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+
+}
