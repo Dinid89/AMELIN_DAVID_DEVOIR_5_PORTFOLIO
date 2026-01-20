@@ -1,4 +1,5 @@
 Devoir 5 : Portfolio de John Doe avec Boostrap et React
+par : David AMELIN
 
 
 
